@@ -1,19 +1,15 @@
-import HeroSection from "@/src/components/homepage/HeroSection"
-import HeroSection2 from "@/src/components/homepage/HeroSection2"
-import Hero3 from "@/src/components/homepage/Hero3"
-import SpecialPackages from "@/src/components/homepage/Package"
-import FeaturedDestinations from "@/src/components/homepage/FeaturedDestinations"
-import AboutUs from "@/src/components/homepage/AboutUs"
-import Testimonial from "@/src/components/homepage/Testimonial"
+import HeroSection from "@/src/components/homepage2/HeroSection"
+import PromoCards from "@/src/components/homepage2/PromoCards"
+import AboutUs from "@/src/components/homepage2/AboutUs"
+import Testimonial from "@/src/components/homepage2/Testimonial"
+import OurAdvantage from "@/src/components/homepage2/OurAdvantage"
 
 export default function Home() {
   return (
     <>
       <HeroSection />
-      <HeroSection2 />
-      <Hero3 />
-      <SpecialPackages />
-      <FeaturedDestinations />
+      <PromoCards />
+      <OurAdvantage />
       <AboutUs />
       <Testimonial />
     </>
