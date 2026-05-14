@@ -2,71 +2,73 @@
 import { useRef } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay } from "swiper/modules";
+import { Pagination, Autoplay, EffectCoverflow } from "swiper/modules";
 import { motion, useInView } from "framer-motion";
+import "swiper/css/effect-coverflow";
 import "swiper/css";
 import "swiper/css/pagination";
 
 const categories = [
   {
     name: "Hiking",
-    image:
-      "https://images.unsplash.com/photo-1551632811-561732d1e306?q=80&w=600&auto=format&fit=crop",
+    link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Hiking",
+    image: "https://www.holidayidea.com.my/upload/gallery/14145.jpg",
   },
   {
     name: "Cruises",
-    image:
-      "https://images.unsplash.com/photo-1548574505-5e239809ee19?q=80&w=600&auto=format&fit=crop",
+    link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Cruises",
+    image: "https://www.holidayidea.com.my/upload/gallery/15205.jpg",
   },
   {
     name: "Airbirds",
-    image:
-      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=600&auto=format&fit=crop",
+    link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Airbirds",
+    image: "https://www.holidayidea.com.my/upload/gallery/14410.jpg",
   },
   {
     name: "Wildlife",
-    image:
-      "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?q=80&w=600&auto=format&fit=crop",
+    link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Wildlife",
+    image: "https://www.holidayidea.com.my/upload/gallery/3370.png",
   },
   {
     name: "Walking",
-    image:
-      "https://images.unsplash.com/photo-1533240332313-0db49b459ad6?q=80&w=600&auto=format&fit=crop",
+    link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Walking",
+    image: "https://www.holidayidea.com.my/upload/gallery/14479.jpg",
   },
   {
     name: "Camping",
-    image:
-      "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=600&auto=format&fit=crop",
+    link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Camping",
+    image: "https://www.holidayidea.com.my/upload/gallery/3404.jpg",
   },
   {
     name: "Surfing",
-    image:
-      "https://images.unsplash.com/photo-1502680390469-be75c86b636f?q=80&w=600&auto=format&fit=crop",
+    link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Surfing",
+    image: "https://www.holidayidea.com.my/upload/gallery/15198.jpg",
   },
   {
     name: "Safari",
-    image:
-      "https://images.unsplash.com/photo-1516426122078-c23e76319801?q=80&w=600&auto=format&fit=crop",
+    link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Safari",
+    image: "https://www.holidayidea.com.my/upload/gallery/14981.jpg",
   },
   {
     name: "Diving",
-    image:
-      "https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=600&auto=format&fit=crop",
+    link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Diving",
+    image: "https://www.holidayidea.com.my/upload/gallery/10531.jpg",
   },
   {
     name: "Skiing",
-    image:
-      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?q=80&w=600&auto=format&fit=crop",
+    link: "https://www.holidayidea.com.my/promo/search-travel.php?s=Skiing",
+    image: "https://www.holidayidea.com.my/upload/gallery/14620.jpg",
   },
 ];
+
 
 export default function TourCategories() {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
-    <section className="py-20 bg-pattern" ref={ref}>
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="py-50 bg-pattern " ref={ref}>
+      <div className=" px-6">
         {/* Heading */}
         <motion.div
           className="text-center mb-12"
@@ -74,10 +76,10 @@ export default function TourCategories() {
           animate={inView ? { y: 0, opacity: 1 } : {}}
           transition={{ duration: 0.6 }}
         >
-          <p className="font-dancing text-primary-dark text-2xl md:text-3xl mb-2">
+          <p className="font-montez text-primary-dark text-2xl md:text-3xl mb-2">
             Wonderful Place For You
           </p>
-          <h2 className="text-4xl md:text-5xl font-bold text-teal-navy">
+          <h2 className="font-manropetext-4xl md:text-5xl font-bold text-teal-navy">
             Tour Categories
           </h2>
         </motion.div>
@@ -89,46 +91,115 @@ export default function TourCategories() {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <Swiper
-            modules={[Pagination, Autoplay]}
-            spaceBetween={24}
-            slidesPerView={1.3}
-            centeredSlides={true}
-            loop={false}
-            autoplay={{ delay: 3000, disableOnInteraction: false, pauseOnMouseEnter: true }}
-            pagination={{ clickable: true }}
-            breakpoints={{
-              480: { slidesPerView: 2.2 },
-              768: { slidesPerView: 3.2 },
-              1024: { slidesPerView: 4.2 },
-              1280: { slidesPerView: 5.2 },
-            }}
-            className="pb-14"
-          >
-            {categories.map((cat) => (
-              <SwiperSlide key={cat.name}>
-                <div className="group cursor-pointer text-center">
-                  <div className="relative overflow-hidden rounded-2xl aspect-[3/4] mb-4 shadow-md group-hover:shadow-xl transition-shadow duration-300">
+              modules={[Pagination, Autoplay, EffectCoverflow]}
+              effect="coverflow"
+              grabCursor={true}
+              centeredSlides={true}
+              loop={true}
+              speed={1000}
+              slidesPerView={"auto"}
+              
+              coverflowEffect={{
+                rotate: 0,
+                stretch: -40,
+                depth: 180,
+                modifier: 1.8,
+                scale: 0.9,
+                slideShadows: false,
+              }}
+
+              autoplay={{
+                delay: 3500,
+                disableOnInteraction: false,
+              }}
+
+              pagination={{
+                clickable: true,
+              }}
+
+              breakpoints={{
+                320: {
+                  spaceBetween: -30,
+                },
+                768: {
+                  spaceBetween: -60,
+                },
+                1024: {
+                  spaceBetween: -90,
+                },
+              }}
+
+              className="travel-slider"
+            >
+            {categories.map((cat, index) => (
+              <SwiperSlide
+                className="!w-[240px] md:!w-[280px] lg:!w-[320px]"
+              >
+                <div className="group text-center">
+                  
+                  <div className="relative overflow-hidden rounded-[2rem] aspect-[0.78]">
                     <Image
                       src={cat.image}
                       alt={cat.name}
                       fill
-                      className="object-cover transition-transform duration-500 group-hover:scale-110"
-                      sizes="(max-width: 768px) 60vw, 25vw"
+                      className="object-cover transition-transform duration-700 group-hover:scale-110"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   </div>
-                  <h3 className="font-semibold text-teal-navy text-lg group-hover:text-primary transition-colors duration-200">
+
+                  <h3 className="mt-6 font-manrope text-3xl font-extrabold text-[#0d2b3e]">
                     {cat.name}
                   </h3>
-                  <p className="text-primary text-sm mt-0.5 font-medium group-hover:underline">
+
+                  <p className="mt-2 text-gray-500">
                     See More
                   </p>
+
                 </div>
               </SwiperSlide>
             ))}
           </Swiper>
         </motion.div>
       </div>
+        <style jsx global>{`
+          .travel-slider {
+            padding-top: 40px;
+            padding-bottom: 80px;
+          }
+
+          .travel-slider .swiper-slide {
+            transition: all 0.7s ease;
+            opacity: 0.45;
+            transform: scale(0.82);
+          }
+
+          .travel-slider .swiper-slide-active {
+            opacity: 1;
+            transform: scale(1);
+            z-index: 20;
+          }
+
+          .travel-slider .swiper-slide-prev {
+            transform: translateY(30px) scale(0.88);
+          }
+
+          .travel-slider .swiper-slide-next {
+            transform: translateY(30px) scale(0.88);
+          }
+
+          .travel-slider .swiper-pagination-bullet {
+            width: 10px;
+            height: 10px;
+            background: #cbd5e1;
+            opacity: 1;
+            transition: all 0.4s ease;
+          }
+
+          .travel-slider .swiper-pagination-bullet-active {
+            width: 34px;
+            border-radius: 999px;
+            background: #06b6d4;
+          }
+        `}</style>
     </section>
   );
 }
