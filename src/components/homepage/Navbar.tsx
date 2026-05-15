@@ -76,10 +76,10 @@ export default function Navbar() {
         scrolled ? "shadow-lg" : "shadow-sm"
       }`}
     >
-      <div className="flex items-center">
+      <div className="flex md:items-center">
         {/* Logo block with diagonal clip */}
-        <div className="bg-primary-dark px-5 py-4 h-full ml-auto"
-          style={{ clipPath: "polygon(0 0, 100% 0, 88% 100%, 0 100%)", paddingLeft: "120px", minWidth: "320px",}} >
+        <div className="bg-primary-dark px-5 py-4 h-full md:pl-[120px] md:pr-[50]"
+          style={{ clipPath: "polygon(0 0, 100% 0, 88% 100%, 0 100%)"}} >
 
             <Link href="/">
               <Image
@@ -132,8 +132,7 @@ export default function Navbar() {
           ))}
         </div>
 
-        {/* Book Now */}
-        <div className="mr-8">
+        <div className="mr-8 hidden md:block">
          <Button variant="dark" showArrow>Explore Tours</Button>
         </div>
 
@@ -184,9 +183,9 @@ export default function Navbar() {
               )}
             </div>
           ))}
-          <button className="mt-4 w-full flex items-center justify-center gap-2 bg-primary-dark text-white px-6 py-3 rounded-full font-semibold">
-            Book Now <ArrowRight size={13} />
-          </button>
+          <div className="text-center">
+            <Button showArrow variant="dark">Load More</Button>
+          </div>
         </div>
       )}
     </nav>

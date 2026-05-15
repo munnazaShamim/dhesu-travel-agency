@@ -81,17 +81,8 @@ export default function Hero() {
               <p className="font-secondary text-white text-3xl md:text-4xl mb-4 drop-shadow-md opacity-90">
                 {slides[current].subtitle}
               </p>
-              <svg width="50" height="50" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path 
-                  d="M30 42V19M30 19C27 24 23 27 18 29M30 19C33 24 37 27 42 29" 
-                  stroke="white" 
-                  strokeWidth="2.5" 
-                  strokeLinecap="round" 
-                  strokeLinejoin="round"
-                />
-              </svg>
               {/* Bold Header */}
-              <h1 className="font-primary text-6xl md:text-8xl font-bold text-white leading-[1.05] mb-10 tracking-tight">
+              <h1 className="font-primary text-5xl md:text-8xl font-bold text-white leading-[1.05] mb-10 tracking-tight">
                 {slides[current].title1}
                 <br />
                 {slides[current].title2}
@@ -113,7 +104,7 @@ export default function Hero() {
       </div>
 
       {/* Right Side Navigation (Exactly as image_a30918.jpg) */}
-      <div className="absolute right-12 top-1/2 -translate-y-1/2 z-20 flex flex-col items-center">
+      <div className="absolute right-4 md:right-12 top-1/2 -translate-y-1/2 z-20 flex flex-col items-center">
         <button
           onClick={goPrev}
           className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-md text-white flex items-center justify-center hover:bg-primary transition-colors duration-900 ease-in-out mb-4"

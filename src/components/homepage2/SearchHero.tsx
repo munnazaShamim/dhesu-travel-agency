@@ -3,7 +3,7 @@ import { MapPin, Clock, Banknote, Search, ChevronDown } from 'lucide-react';
 
 export default function SearchHero() {
   return (
-    <div className="w-full max-w-8xl mx-auto px-4 lg:px-8 bg-gray-50">
+    <div className="w-full max-w-8xl mx-auto px-4 bg-gray-50">
       <div className="relative z-20  -mt-[70px] bg-white rounded-xl flex flex-col lg:flex-row items-stretch min-h-[140px] overflow-hidden">
 
         <div className="flex-1 flex items-center px-8 py-7 border-b lg:border-b-0 lg:border-r border-gray-100 hover:bg-primarydark/10 transition-all cursor-pointer group">
@@ -69,7 +69,7 @@ export default function SearchHero() {
         </div>
 
         {/* Action Button */}
-        <button className="bg-blue-400 hover:bg-blue-700 text-white px-12 py-7 flex items-center justify-center transition-colors group active:scale-95">
+        <button className="bg-primary hover:bg-primary-dark text-white px-12 py-7 flex items-center justify-center transition-colors group active:scale-95">
           <span className="font-bold tracking-wider mr-3">SEARCH NOW</span>
           <div className="bg-white/20 p-2 rounded-lg group-hover:bg-white/30 transition-colors">
             <Search size={20} className="stroke-[3px]" />

@@ -15,20 +15,18 @@ import Link from "next/link";
 const quickLinks = ["Home", "About us", "Our Service", "Terms of Service", "Tour Booking Now"];
 
 const instagramPhotos = [
-  "https://images.unsplash.com/photo-1543349689-9a4d426bee8e?q=80&w=300&auto=format&fit=crop",
   "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=300&auto=format&fit=crop",
   "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=300&auto=format&fit=crop",
   "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=300&auto=format&fit=crop",
   "https://images.unsplash.com/photo-1582672060674-bc2bd808a8b5?q=80&w=300&auto=format&fit=crop",
   "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=300&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=300&auto=format&fit=crop",
 ];
 
 const socials = [
-  { icon: <MessageCircle size={13} />, href: "#" },
-  { icon: <MessageCircle size={13} />, href: "#" },
-  { icon: <MessageCircle size={13} />, href: "#" },
-  { icon: <MessageCircle size={13} />, href: "#" },
-  { icon: <MessageCircle size={13} />, href: "#" },
+  { icon: <MessageCircle size={16} />, href: "#" },
+  { icon: <MessageCircle size={16} />, href: "#" },
+  { icon: <MessageCircle size={16} />, href: "#" },
 ];
 
 export default function Footer() {
@@ -40,16 +38,16 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
             {/* Brand */}
             <div>
-              <div className="flex items-center gap-2.5 mb-4">
-                <div className="relative w-10 h-10">
-                  <Globe className="text-primary-dark text-4xl absolute inset-0" />
-                  <Plane className="text-primary text-[10px] absolute top-0.5 right-0.5 rotate-45" />
-                </div>
-                <div>
-                  <div className="font-bold text-xl text-teal-navy leading-none">Tourm</div>
-                  <div className="text-gray-400 text-[11px] tracking-wide">Explore World</div>
-                </div>
-              </div>
+                  <Link href="/">
+                    <Image
+                      src="/images/dhesu-logo2.png"
+                      alt="dhesu logo"
+                      height={100}
+                      width={150}
+                      priority
+                      className="object-contain rounded"
+                    />
+                  </Link>
               <p className="text-gray-500 text-sm leading-relaxed mb-5">
                 Rapidiously myocardinate cross-platform intellectual capital model. Appropriately
                 create interactive infrastructures
@@ -146,8 +144,8 @@ export default function Footer() {
       </div>
 
       {/* Bottom bar */}
-      <div className="bg-white border-t border-gray-100 py-4">
-        <div className="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-sm text-gray-400">
+      <div className="border-t border-gray-100 py-8 bg-primary-dark">
+        <div className="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-sm text-white">
           <p>© 2024 Tourm. All Rights Reserved.</p>
           <div className="flex gap-5">
             <Link href="#" className="hover:text-primary transition-colors">Privacy Policy</Link>

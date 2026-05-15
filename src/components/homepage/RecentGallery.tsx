@@ -47,7 +47,7 @@ export default function RecentGallery() {
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
-    <section className="py-20 bg-white" ref={ref}>
+    <section className="py-20 bg-white hidden md:block" ref={ref}>
       <div className="max-w-7xl mx-auto px-6">
         {/* Heading */}
         <motion.div
@@ -59,7 +59,7 @@ export default function RecentGallery() {
           <p className="font-secondary text-primary-dark text-2xl md:text-3xl mb-2">
             Make Your Tour More Pleasure
           </p>
-          <h2 className="text-4xl md:text-5xl font-bold text-teal-navy">
+          <h2 className="text-4xl md:text-6xl font-bold text-teal-navy">
             Recent Gallery
           </h2>
         </motion.div>
