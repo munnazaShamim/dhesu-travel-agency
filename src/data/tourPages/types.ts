@@ -48,11 +48,27 @@ export interface TourPackage {
   name: string;
   duration: string;
   price: string;
+  /** Pre-discount price, shown struck through next to `price`, e.g. "RM478" */
+  originalPrice?: string;
   priceNote: string;
+  /** Savings copy, e.g. "Save RM159 per couple" */
+  saving?: string;
   tag: string;
-  tagColor: "red" | "green" | "orange" | "purple" | "pink" | "teal" | "blue";
+  tagColor:
+    | "red"
+    | "green"
+    | "orange"
+    | "purple"
+    | "pink"
+    | "teal"
+    | "blue"
+    | "gray"
+    | "gold"
+    | "saffron";
   highlights: string[];
   image: string;
+  /** External booking/package ID from the source system */
+  pkgid?: string;
   popular?: boolean;
 }
 
@@ -108,6 +124,10 @@ export interface TourPageData {
     subheading: string;
     ctaNote: string;
     items: TourPackage[];
+    viewAllPackage?: {
+      text: string;
+      link: string;
+    };
   };
   whyBook: {
     sectionLabel: string;

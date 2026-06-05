@@ -31,10 +31,13 @@ const tagColors: Record<string, string> = {
   pink: "bg-pink-100 text-pink-700",
   teal: "bg-teal-100 text-teal-700",
   blue: "bg-blue-100 text-blue-700",
+  gray: "bg-gray-100 text-gray-700",
+  gold: "bg-amber-100 text-amber-700",
+  saffron: "bg-orange-100 text-orange-600",
 };
 
 // ─── Section Label ─────────────────────────────────────────────────────────────
-function SectionLabel({ text }: { text: string }) {
+export function SectionLabel({ text }: { text: string }) {
   return (
     <div className="flex items-center gap-3 mb-3">
       <span className="w-8 h-[2px] bg-primary" />
@@ -46,7 +49,7 @@ function SectionLabel({ text }: { text: string }) {
 }
 
 // ─── Package Card ──────────────────────────────────────────────────────────────
-function PackageCard({
+export function PackageCard({
   pkg,
   index,
   slug,
@@ -114,11 +117,23 @@ function PackageCard({
           ))}
         </ul>
 
+        {/* Saving badge */}
+        {pkg.saving && (
+          <span className="text-xs font-semibold text-green-700 bg-green-50 px-2 py-0.5 rounded-full w-fit mb-3">
+            {pkg.saving}
+          </span>
+        )}
+
         {/* Price + CTA */}
         <div className="flex items-center justify-between pt-4 border-t border-gray-100">
           <div>
-            <span className="text-primary font-bold text-xl font-primary">{pkg.price}</span>
-            <span className="text-gray-400 text-xs ml-1">{pkg.priceNote}</span>
+            <div className="flex items-baseline gap-2">
+              <span className="text-primary font-bold text-xl font-primary">{pkg.price}</span>
+              {pkg.originalPrice && (
+                <span className="text-gray-400 text-sm line-through">{pkg.originalPrice}</span>
+              )}
+            </div>
+            <span className="text-gray-400 text-xs">{pkg.priceNote}</span>
           </div>
           <Link href={pkg.slug ? `/tours/${slug}/${pkg.slug}` : "/contact"}>
             <Button variant="light" size="sm" showArrow>
@@ -513,9 +528,9 @@ export default function TourDestinationTemplate({ data }: { data: TourPageData }
             <p className="text-gray-500 text-lg max-w-2xl mx-auto">{packages.subheading}</p>
           </motion.div>
 
-          {/* Cards grid */}
+          {/* Cards grid — preview the first 6, full list lives on /all-packages */}
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-7">
-            {packages.items.map((pkg, i) => (
+            {packages.items.slice(0, 6).map((pkg, i) => (
               <PackageCard key={pkg.id} pkg={pkg} index={i} slug={meta.slug} />
             ))}
           </div>
@@ -533,6 +548,18 @@ export default function TourDestinationTemplate({ data }: { data: TourPageData }
               Contact us to customise.
             </Link>
           </motion.p>
+          {/* View all — shown when there are more packages than the preview */}
+          {(packages.viewAllPackage || packages.items.length > 6) && (
+            <div className="text-center mt-12">
+              <Link
+                href={packages.viewAllPackage?.link ?? `/tours/${meta.slug}/all-packages`}
+              >
+                <Button variant="light" showArrow size="lg">
+                  {packages.viewAllPackage?.text ?? `View All ${meta.name} Packages`}
+                </Button>
+              </Link>
+            </div>
+          )}
         </div>
       </section>
 
