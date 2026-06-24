@@ -1,0 +1,665 @@
+{
+  "meta": {
+    "name": "Vietnam",
+    "title": "Vietnam Tours & Holiday Packages from Malaysia | Dhesu Travel",
+    "description": "Discover Vietnam's best kept secrets with expert-guided tours. From Hanoi's bustling markets to Halong Bay's limestone karsts, explore North, Central, South Vietnam, Phu Quoc, and Dalat. Trusted since 1988.",
+    "slug": "vietnam",
+    "targetKeyword": "Vietnam tour package from Malaysia",
+    "secondaryKeywords": [
+      "Halong Bay tour Malaysia",
+      "Hanoi package Malaysia",
+      "Vietnam holiday package",
+      "Phu Quoc tour Malaysia",
+      "Ho Chi Minh City tour"
+    ],
+    "region": "Southeast Asia",
+    "hubCardColor": "red"
+  },
+  "hero": {
+    "badge": "The Jewel of Southeast Asia",
+    "headline": "Vietnam Unveiled:",
+    "headlineAccent": "From Ancient Traditions to Modern Wonders.",
+    "body": "Halong Bay's limestone karsts rise from emerald water at sunrise. Hoi An's lanterns glow gold over the ancient river. Hanoi's Old Quarter hums through centuries of Buddhist temples and French colonial streets. Vietnam is one country, a dozen worlds — and every one of them is within reach of Malaysia.",
+    "bgImage": "/images/gallery/16404.jpg",
+    "stats": [
+      {
+        "value": "35+",
+        "label": "Years Sending Malaysians to Vietnam"
+      },
+      {
+        "value": "1988",
+        "label": "Trusted Since"
+      },
+      {
+        "value": "MATTA",
+        "label": "& IATA Registered"
+      }
+    ]
+  },
+  "why": {
+    "sectionLabel": "Why Vietnam",
+    "heading": "Five Destinations. One Country That Never Runs Out of New Things.",
+    "subheading": "North, Central, and South Vietnam each feel like a different country. Phu Quoc is the island detour everyone loves. Nha Trang is the beach city on every return trip.",
+    "highlights": [
+      {
+        "icon": "mountain",
+        "title": "North Vietnam: Halong Bay, Hanoi & Sapa",
+        "body": "7 packages from RM688. Halong Bay's 2,000 limestone karsts rise from UNESCO-listed emerald water — cruise at sunrise, kayak through hidden lagoons. Hanoi's Old Quarter and water puppet theatre. Sapa's terraced rice fields and the Fansipan cable car to Vietnam's highest summit at 3,147 metres.",
+        "image": "/images/gallery/16404.jpg",
+        "places": [
+          "Halong Bay UNESCO Site",
+          "Hanoi Old Quarter",
+          "Sapa & Fansipan"
+        ]
+      },
+      {
+        "icon": "temple",
+        "title": "Central Vietnam: Danang, Hue & Hoi An",
+        "body": "4 packages from RM688. Hoi An Ancient Town — UNESCO-listed merchant port with hundreds of coloured lanterns over the Thu Bon River. Hue's Imperial Citadel and Royal Tombs. Ba Na Hills Golden Bridge suspended in the clouds above Danang. The scenic coastal train between Danang and Hue.",
+        "image": "/images/gallery/16405.jpg",
+        "places": [
+          "Hoi An Ancient Town",
+          "Hue Imperial Citadel",
+          "Ba Na Hills Golden Bridge"
+        ]
+      },
+      {
+        "icon": "food",
+        "title": "South Vietnam: Ho Chi Minh, Dalat & Mui Ne",
+        "body": "5 packages from RM1,388. Ho Chi Minh City's War Remnants Museum, Cu Chi Tunnels, and best street food in Southeast Asia. Mekong Delta sampan boats and floating markets. Dalat — the City of Eternal Spring — with Asia's longest alpine coaster and flower gardens. Mui Ne's towering sand dunes and beachfront resorts.",
+        "image": "/images/gallery/2088.jpg",
+        "places": [
+          "Ho Chi Minh City",
+          "Dalat City of Eternal Spring",
+          "Mui Ne Sand Dunes"
+        ]
+      },
+      {
+        "icon": "wave",
+        "title": "Phu Quoc & Nha Trang: Island & Beach",
+        "body": "Phu Quoc: 3 packages from RM688 — the world's longest sea cable car, snorkelling on pristine reefs, island hopping, and Duong Dong Night Market seafood. Nha Trang: Vietnam's premier beach city with cobalt-blue water, mud baths at Thap Ba, and some of the best diving in Southeast Asia. Custom packages available.",
+        "image": "/images/gallery/2411.jpg",
+        "places": [
+          "Phu Quoc Island",
+          "Nha Trang Beach",
+          "Vinpearl Cable Car"
+        ]
+      }
+    ]
+  },
+  "zones": {
+    "sectionLabel": "Vietnam Destinations",
+    "heading": "Five Completely Different Vietnams. One Country.",
+    "subheading": "Vietnam stretches 1,650 kilometres from Hanoi's ancient lakes to Phu Quoc's tropical waters. 7 packages in the North, 5 in the South, 4 through Central Vietnam, 3 on Phu Quoc — and Nha Trang on request.",
+    "areas": [
+      {
+        "name": "North Vietnam",
+        "tag": "Hanoi · Halong Bay · Sapa",
+        "tagColor": "blue",
+        "description": "7 packages from RM688. Hanoi's Old Quarter temples, water puppetry and French colonial streets. UNESCO Halong Bay limestone karsts by overnight cruise. Sapa's terraced rice fields, hill tribe villages, and Fansipan cable car — Vietnam's highest peak.",
+        "image": "/images/gallery/16404.jpg",
+        "vibe": "Historic & Scenic",
+        "href": "/tours/vietnam/north-vietnam"
+      },
+      {
+        "name": "Central Vietnam",
+        "tag": "Danang · Hue · Hoi An",
+        "tagColor": "orange",
+        "description": "4 packages from RM688. Hoi An Ancient Town's lantern-lit streets and Japanese Covered Bridge. Hue's Imperial Citadel and Royal Tombs UNESCO site. Ba Na Hills Golden Bridge. Danang's Marble Mountains and pristine My Khe Beach.",
+        "image": "/images/gallery/16405.jpg",
+        "vibe": "Cultural & Coastal",
+        "href": "/tours/vietnam/central-vietnam"
+      },
+      {
+        "name": "South Vietnam",
+        "tag": "Ho Chi Minh · Dalat · Mui Ne",
+        "tagColor": "red",
+        "description": "5 packages from RM1,388. Ho Chi Minh City's War Remnants Museum and Cu Chi Tunnels. Mekong Delta sampan boats and floating markets. Dalat's City of Eternal Spring with Asia's longest alpine coaster. Mui Ne's sand dunes and beachfront resorts.",
+        "image": "/images/gallery/2088.jpg",
+        "vibe": "Urban, Highland & Coastal",
+        "href": "/tours/vietnam/south-vietnam"
+      },
+      {
+        "name": "Phu Quoc",
+        "tag": "Island Getaway",
+        "tagColor": "teal",
+        "description": "3 packages from RM688. Asia's most talked-about tropical island. World's longest sea cable car (3.3 km). Pristine beaches for snorkelling and water sports. Island hopping to smaller atolls. Duong Dong Night Market for fresh seafood at sunset.",
+        "image": "/images/gallery/2411.jpg",
+        "vibe": "Tropical Paradise",
+        "href": "/tours/vietnam/phu-quoc"
+      },
+      {
+        "name": "Nha Trang",
+        "tag": "Beach & Diving",
+        "tagColor": "green",
+        "description": "Vietnam's premier beach city on the South China Sea. Cobalt-blue water, white sand, and some of the best diving and snorkelling in Southeast Asia. Mud baths at Thap Ba, vinpearl cable car, and a chain of offshore islands. Custom packages on request.",
+        "image": "/images/gallery/2089.jpg",
+        "vibe": "Sun & Sea",
+        "href": "/tours/vietnam/nha-trang"
+      }
+    ]
+  },
+  "bestTime": {
+    "sectionLabel": "When to Visit",
+    "heading": "Best Time to Visit Vietnam from Malaysia",
+    "body": "Vietnam has two separate monsoon systems affecting north and south differently, so the best time depends on which region you visit. Generally, autumn and spring are ideal for most destinations.",
+    "seasons": [
+      {
+        "name": "Autumn Season",
+        "months": "September to November",
+        "badge": "Best Overall",
+        "badgeColor": "red",
+        "description": "Ideal season for all Vietnam regions. Cool temperatures 20-30°C, minimal rain, and clear skies perfect for Halong Bay cruises and Sapa hiking. The most popular travel window from Malaysia.",
+        "icon": "sun"
+      },
+      {
+        "name": "Spring Season",
+        "months": "March to May",
+        "badge": "Flowers & Clear Skies",
+        "badgeColor": "red",
+        "description": "Dalat's flower gardens are at their peak. Mild temperatures ideal for exploration. Northern regions accessible as winter ends. Perfect for trekking and outdoor activities across all regions.",
+        "icon": "sun"
+      },
+      {
+        "name": "Winter",
+        "months": "December to February",
+        "badge": "Cool & Dry South",
+        "badgeColor": "blue",
+        "description": "Cooler temperatures in the north (10-20°C), dry season in the south. Peak season for Ho Chi Minh City and Phu Quoc. Sapa may see occasional snow. Ideal for southern Vietnam beach trips.",
+        "icon": "sun"
+      },
+      {
+        "name": "Summer Monsoon",
+        "months": "June to August",
+        "badge": "Green Landscapes",
+        "badgeColor": "blue",
+        "description": "Lush monsoon scenery with dramatic green mountains and rice fields. Higher temperatures and humidity, occasional rain in the north. Best rates for budget travellers. Ideal for Phu Quoc island hopping.",
+        "icon": "rain"
+      }
+    ]
+  },
+  "tripLength": {
+    "sectionLabel": "Trip Duration",
+    "heading": "How Many Days Do You Actually Need?",
+    "options": [
+      {
+        "days": "3-4 Days",
+        "label": "Quick Escape",
+        "description": "Enough for a single region — Halong Bay from Hanoi, or a Hoi An-Danang coastal break, or Phu Quoc island. Perfect for a long weekend from Malaysia."
+      },
+      {
+        "days": "5-6 Days",
+        "label": "Sweet Spot",
+        "description": "The recommended duration for North or Central Vietnam. Hanoi plus Halong Bay overnight cruise, or Danang with Hue and Hoi An. Enough to see the highlights without rushing.",
+        "recommended": true
+      },
+      {
+        "days": "8+ Days",
+        "label": "Best of Vietnam",
+        "description": "Combine North and South Vietnam, or add Sapa highlands to the Halong Bay circuit. The longer you have, the more regional variety you can experience."
+      }
+    ]
+  },
+  "packages": {
+    "sectionLabel": "Our Packages",
+    "heading": "Vietnam Packages for Every Traveller",
+    "subheading": "From Halong Bay luxury cruises and Hoi An cultural escapes to Phu Quoc beach breaks and Sapa mountain treks. Every package includes airport transfers and Dhesu's trusted on-ground team.",
+    "ctaNote": "Custom and group packages available on request.",
+    "items": [
+      {
+        "id": "vietnam-3d-hanoi-halong-super-saver",
+        "slug": "north-vietnam/3-day-hanoi-halong-bay-super-saver",
+        "name": "Hanoi Halong Bay Super Saver",
+        "duration": "3D2N",
+        "price": "From RM688",
+        "originalPrice": "RM826",
+        "priceNote": "per person",
+        "saving": "Save RM276 per couple",
+        "tag": "Best Value",
+        "tagColor": "orange",
+        "highlights": [
+          "Hanoi Old Quarter exploration",
+          "Halong Bay day cruise",
+          "Sung Sot Cave — largest in Halong Bay",
+          "Kayaking through limestone formations",
+          "Titov Island panoramic viewpoint"
+        ],
+        "image": "/images/gallery/16404.jpg",
+        "pkgid": "2477",
+        "popular": true
+      },
+      {
+        "id": "vietnam-3d-danang-super-saver",
+        "slug": "central-vietnam/3-day-danang-super-saver",
+        "name": "Danang Super Saver",
+        "duration": "3D2N",
+        "price": "From RM688",
+        "originalPrice": "RM826",
+        "priceNote": "per person",
+        "saving": "Save RM276 per couple",
+        "tag": "Best Value",
+        "tagColor": "orange",
+        "highlights": [
+          "Hoi An Ancient Town UNESCO Site",
+          "Lantern streets & ancient merchant port",
+          "Basket boat ride at Hoi An",
+          "Danang beaches",
+          "Vietnamese culinary experiences"
+        ],
+        "image": "/images/gallery/16405.jpg",
+        "pkgid": "2478",
+        "popular": false
+      },
+      {
+        "id": "vietnam-3d-phu-quoc-super-saver",
+        "slug": "phu-quoc/3-day-phu-quoc-super-saver",
+        "name": "Phu Quoc Super Saver",
+        "duration": "3D2N",
+        "price": "From RM688",
+        "originalPrice": "RM826",
+        "priceNote": "per person",
+        "saving": "Save RM276 per couple",
+        "tag": "Island",
+        "tagColor": "teal",
+        "highlights": [
+          "World's longest sea cable car",
+          "Snorkelling & water activities",
+          "Island hopping adventures",
+          "Duong Dong Night Market",
+          "Fresh seafood dining"
+        ],
+        "image": "/images/gallery/2411.jpg",
+        "pkgid": "2479",
+        "popular": false
+      },
+      {
+        "id": "vietnam-4d-phu-quoc-cable-car",
+        "slug": "phu-quoc/4-day-phu-quoc-cable-car",
+        "name": "Phu Quoc with World's Longest Cable Car",
+        "duration": "4D3N",
+        "price": "From RM1,238",
+        "originalPrice": "RM1,486",
+        "priceNote": "per person",
+        "saving": "Save RM496 per couple",
+        "tag": "Island",
+        "tagColor": "teal",
+        "highlights": [
+          "World's longest sea cable car (3.3km)",
+          "Aquarium & Ho Quoc Pagoda",
+          "Sunset Sanato Beach",
+          "Duong Dong Night Market",
+          "Island tours & water sports"
+        ],
+        "image": "/images/gallery/2411.jpg",
+        "pkgid": "2411",
+        "popular": false
+      },
+      {
+        "id": "vietnam-4d-saigon-mekong",
+        "slug": "south-vietnam/4-day-saigon-mekong",
+        "name": "Saigon & Serenity of My Tho Mekong",
+        "duration": "4D3N",
+        "price": "From RM1,388",
+        "originalPrice": "RM1,666",
+        "priceNote": "per person",
+        "saving": "Save RM556 per couple",
+        "tag": "South Vietnam",
+        "tagColor": "red",
+        "highlights": [
+          "War museums & Independence Palace",
+          "Street food exploration",
+          "Cu Chi Tunnels",
+          "Mekong Delta floating markets",
+          "Homestay experiences"
+        ],
+        "image": "/images/gallery/2088.jpg",
+        "pkgid": "2088",
+        "popular": false
+      },
+      {
+        "id": "vietnam-4d-hanoi-halong-luxury",
+        "slug": "north-vietnam/4-day-hanoi-halong-luxury",
+        "name": "Hanoi Halong Bay Escape Luxury Cruise",
+        "duration": "4D3N",
+        "price": "From RM1,488",
+        "originalPrice": "RM1,786",
+        "priceNote": "per person",
+        "saving": "Save RM596 per couple",
+        "tag": "Popular",
+        "tagColor": "blue",
+        "highlights": [
+          "Hanoi Old Quarter temples",
+          "Water puppetry show",
+          "Luxury Halong Bay overnight cruise",
+          "Multiple cave explorations",
+          "Overnight stargazing on bay"
+        ],
+        "image": "/images/gallery/16404.jpg",
+        "pkgid": "2133",
+        "popular": true
+      },
+      {
+        "id": "vietnam-4d-dalat",
+        "slug": "south-vietnam/4-day-dalat",
+        "name": "Explore the Magic of Da Lat",
+        "duration": "4D3N",
+        "price": "From RM1,988",
+        "originalPrice": "RM2,386",
+        "priceNote": "per person",
+        "saving": "Save RM796 per couple",
+        "tag": "Highlands",
+        "tagColor": "green",
+        "highlights": [
+          "Da Lat cool mountain climate",
+          "Rainbow Slide & Mongo Land",
+          "Asia's longest alpine coaster",
+          "Flower gardens & waterfalls",
+          "Dalat Cathedral & local markets"
+        ],
+        "image": "/images/gallery/2365.jpg",
+        "pkgid": "2365",
+        "popular": false
+      },
+      {
+        "id": "vietnam-4d-danang-hoi-an-bana",
+        "slug": "central-vietnam/4-day-danang-hoi-an-bana",
+        "name": "Danang + Hoi An + Ba Na Hills",
+        "duration": "4D3N",
+        "price": "From RM1,588",
+        "originalPrice": "RM1,906",
+        "priceNote": "per person",
+        "saving": "Save RM636 per couple",
+        "tag": "Popular",
+        "tagColor": "orange",
+        "highlights": [
+          "Ba Na Hills mountain resort",
+          "Golden Bridge iconic sculpture",
+          "Hoi An ancient town lanterns",
+          "Cooking class experience",
+          "Danang beaches"
+        ],
+        "image": "/images/gallery/16405.jpg",
+        "pkgid": "2135",
+        "popular": true
+      },
+      {
+        "id": "vietnam-4d-saigon-mui-ne",
+        "slug": "south-vietnam/4-day-saigon-mui-ne",
+        "name": "Saigon + Mui Ne Beach Resort",
+        "duration": "4D3N",
+        "price": "From RM1,588",
+        "originalPrice": "RM1,906",
+        "priceNote": "per person",
+        "saving": "Save RM636 per couple",
+        "tag": "South Vietnam",
+        "tagColor": "red",
+        "highlights": [
+          "Ho Chi Minh City museums",
+          "Mui Ne resort relaxation",
+          "Sand dunes & fishing village",
+          "Beachfront dining",
+          "Sunrise & sunset viewing"
+        ],
+        "image": "/images/gallery/2088.jpg",
+        "pkgid": "2107",
+        "popular": false
+      },
+      {
+        "id": "vietnam-5d-phu-quoc-best",
+        "slug": "phu-quoc/5-day-phu-quoc-best",
+        "name": "Best of Phu Quoc — Most Important Places",
+        "duration": "5D4N",
+        "price": "From RM1,488",
+        "originalPrice": "RM1,786",
+        "priceNote": "per person",
+        "saving": "Save RM596 per couple",
+        "tag": "Island",
+        "tagColor": "teal",
+        "highlights": [
+          "Longest cable car ride",
+          "Phu Quoc Prison museum",
+          "Sunset Beach & Sanato",
+          "Reef snorkelling & island hopping",
+          "Night market seafood"
+        ],
+        "image": "/images/gallery/2411.jpg",
+        "pkgid": "2340",
+        "popular": false
+      },
+      {
+        "id": "vietnam-5d-hanoi-sapa-fansipan",
+        "slug": "north-vietnam/5-day-hanoi-sapa-fansipan",
+        "name": "Hanoi & Sapa + Fansipan Cable Car",
+        "duration": "5D4N",
+        "price": "From RM1,888",
+        "originalPrice": "RM2,266",
+        "priceNote": "per person",
+        "saving": "Save RM756 per couple",
+        "tag": "Most Popular",
+        "tagColor": "red",
+        "highlights": [
+          "Hanoi Old Quarter",
+          "Sapa mountain valley",
+          "Fansipan cable car — Vietnam's highest peak",
+          "Rice field trekking",
+          "Hill tribe village visits"
+        ],
+        "image": "/images/gallery/2084.jpg",
+        "pkgid": "2084",
+        "popular": true
+      },
+      {
+        "id": "vietnam-5d-saigon-cu-chi-mui-ne",
+        "slug": "south-vietnam/5-day-saigon-cu-chi-mui-ne",
+        "name": "Saigon + Cu Chi Tunnels + Mui Ne Beach",
+        "duration": "5D4N",
+        "price": "From RM1,888",
+        "originalPrice": "RM2,266",
+        "priceNote": "per person",
+        "saving": "Save RM756 per couple",
+        "tag": "South Vietnam",
+        "tagColor": "red",
+        "highlights": [
+          "Ho Chi Minh City exploration",
+          "Cu Chi Tunnels underground network",
+          "Mui Ne sand dunes",
+          "Fishing village tours",
+          "Beach sunset resort"
+        ],
+        "image": "/images/gallery/2089.jpg",
+        "pkgid": "2089",
+        "popular": false
+      },
+      {
+        "id": "vietnam-5d-hanoi-halong-ninh-binh",
+        "slug": "north-vietnam/5-day-hanoi-halong-ninh-binh",
+        "name": "Hanoi Halong Bay Cruise + Ninh Binh",
+        "duration": "5D4N",
+        "price": "From RM1,988",
+        "originalPrice": "RM2,386",
+        "priceNote": "per person",
+        "saving": "Save RM796 per couple",
+        "tag": "North Vietnam",
+        "tagColor": "blue",
+        "highlights": [
+          "Halong Bay luxury cruise",
+          "Cave explorations",
+          "Ninh Binh karst landscape",
+          "Trang An Grottoes boat ride",
+          "Mua Mountain summit views"
+        ],
+        "image": "/images/gallery/2164.jpg",
+        "pkgid": "2164",
+        "popular": true
+      },
+      {
+        "id": "vietnam-5d-danang-hue-hoi-an",
+        "slug": "central-vietnam/5-day-danang-hue-hoi-an",
+        "name": "Best of Danang + Hue + Hoi An + Ba Na",
+        "duration": "5D4N",
+        "price": "From RM2,088",
+        "originalPrice": "RM2,506",
+        "priceNote": "per person",
+        "saving": "Save RM836 per couple",
+        "tag": "Popular",
+        "tagColor": "orange",
+        "highlights": [
+          "Hue Imperial Citadel UNESCO",
+          "Royal tombs",
+          "Hoi An lantern town",
+          "Ba Na Hills Golden Bridge",
+          "Danang marble caves"
+        ],
+        "image": "/images/gallery/2091.jpg",
+        "pkgid": "2091",
+        "popular": true
+      },
+      {
+        "id": "vietnam-5d-south-vietnam-dalat",
+        "slug": "south-vietnam/5-day-south-vietnam-dalat",
+        "name": "Best of Southern Vietnam + Da Lat",
+        "duration": "5D4N",
+        "price": "From RM2,188",
+        "originalPrice": "RM2,626",
+        "priceNote": "per person",
+        "saving": "Save RM876 per couple",
+        "tag": "South Vietnam",
+        "tagColor": "red",
+        "highlights": [
+          "Ho Chi Minh City culture",
+          "Mekong Delta markets",
+          "Cu Chi Tunnels",
+          "Mui Ne beaches",
+          "Da Lat mountain gardens"
+        ],
+        "image": "/images/gallery/2087.jpg",
+        "pkgid": "2087",
+        "popular": false
+      },
+      {
+        "id": "vietnam-5d-danang-train-hoi-an",
+        "slug": "central-vietnam/5-day-danang-train-hoi-an",
+        "name": "Danang Ba Na Hills + Hoi An + Scenic Train",
+        "duration": "5D4N",
+        "price": "From RM2,188",
+        "originalPrice": "RM2,626",
+        "priceNote": "per person",
+        "saving": "Save RM876 per couple",
+        "tag": "Central Vietnam",
+        "tagColor": "orange",
+        "highlights": [
+          "Ba Na Hills Golden Bridge",
+          "Scenic coastal train",
+          "Hue Imperial Citadel",
+          "Hoi An lanterns",
+          "Cooking or tailor class"
+        ],
+        "image": "/images/gallery/2092.jpg",
+        "pkgid": "2092",
+        "popular": true
+      },
+      {
+        "id": "vietnam-5d-north-vietnam-complete",
+        "slug": "north-vietnam/5-day-north-vietnam",
+        "name": "Best of North Vietnam — Complete",
+        "duration": "5D4N",
+        "price": "From RM2,188",
+        "originalPrice": "RM2,626",
+        "priceNote": "per person",
+        "saving": "Save RM876 per couple",
+        "tag": "North Vietnam",
+        "tagColor": "blue",
+        "highlights": [
+          "Hanoi temples & Old Quarter",
+          "Halong Bay overnight cruise",
+          "Cave explorations",
+          "Sapa mountain trekking",
+          "Hill tribe culture"
+        ],
+        "image": "/images/gallery/2337.jpg",
+        "pkgid": "2337",
+        "popular": false
+      },
+      {
+        "id": "vietnam-6d-hanoi-halong-sapa",
+        "slug": "north-vietnam/6-day-hanoi-halong-sapa",
+        "name": "Hanoi Halong Bay & Sapa + Fansipan",
+        "duration": "6D5N",
+        "price": "From RM2,288",
+        "originalPrice": "RM2,746",
+        "priceNote": "per person",
+        "saving": "Save RM916 per couple",
+        "tag": "North Vietnam",
+        "tagColor": "blue",
+        "highlights": [
+          "Hanoi temples & markets",
+          "Halong Bay overnight cruise",
+          "Cave explorations",
+          "Sapa mountain scenery",
+          "Fansipan cable car",
+          "Village trekking"
+        ],
+        "image": "/images/gallery/2165.jpg",
+        "pkgid": "2165",
+        "popular": false
+      },
+      {
+        "id": "vietnam-6d-north-vietnam-premium",
+        "slug": "north-vietnam/6-day-north-vietnam-best",
+        "name": "Best of North Vietnam — Premium",
+        "duration": "6D5N",
+        "price": "From RM2,588",
+        "originalPrice": "RM3,106",
+        "priceNote": "per person",
+        "saving": "Save RM1,036 per couple",
+        "tag": "Premium",
+        "tagColor": "purple",
+        "highlights": [
+          "Comprehensive Hanoi tour",
+          "Halong Bay luxury 2-day cruise",
+          "Sapa or Ninh Binh exploration",
+          "Multiple grottoes",
+          "Cooking classes & scenic trains"
+        ],
+        "image": "/images/gallery/2080.jpg",
+        "pkgid": "2080",
+        "popular": true
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Why Book Your Vietnam Journey Through Dhesu",
+    "body": "Southeast Asia travel rewards those who know the difference between a good Halong Bay cruise operator and a mediocre one, which Hoi An cooking class is authentic and which is a tourist trap, and exactly which seat on the train from Hanoi to Sapa has the mountain view. We have been sending Malaysian travellers to Vietnam since 1988 — that experience shows in every itinerary.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "description": "Fully licensed Malaysian travel agency. We assist with Vietnam e-Visa documentation guidance for all packages."
+      },
+      {
+        "icon": "clock",
+        "title": "35+ Years of Southeast Asia Expertise",
+        "description": "Since 1988, we have been arranging Vietnam journeys for Malaysian travellers. We know which cruise lines deliver, which guides speak real English, and which routes work best in each season."
+      },
+      {
+        "icon": "map",
+        "title": "Expert Local Guides",
+        "description": "English-speaking local guides who understand Vietnamese history, culture, and the on-the-ground logistics that make the difference between a good trip and a great one."
+      },
+      {
+        "icon": "tag",
+        "title": "Group, Custom & Family Packages",
+        "description": "All packages can be arranged for groups, families, and custom itineraries. Airport transfers, guides, and hotels are included in every package."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Plan Your Vietnam Journey",
+    "subheading": "Tell us which Vietnam calls to you. We have been arranging the details since 1988.",
+    "phone": "+6019 336 4465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/gallery/16404.jpg"
+  }
+}

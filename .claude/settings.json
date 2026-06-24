@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:dhesu.com)",
+      "WebFetch(domain:www.holidayidea.com.my)",
+      "WebFetch(domain:webcache.googleusercontent.com)"
+    ]
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "name": "Bhutan",
+    "title": "Bhutan Tour Package from Malaysia | The Land of the Thunder Dragon | Dhesu Travel",
+    "description": "Experience the Kingdom of Bhutan with Dhesu Travel. Discover Tiger's Nest Monastery, Himalayan landscapes, and spiritual culture. Trusted travel agency since 1988. Happiness rated tours from Malaysia.",
+    "slug": "bhutan",
+    "targetKeyword": "Bhutan tour package from Malaysia",
+    "secondaryKeywords": [
+      "Bhutan happiness rated tours",
+      "Tiger's Nest Monastery hike",
+      "Bhutan cultural holidays",
+      "Land of Thunder Dragon",
+      "Paro Thimphu tour Malaysia",
+      "Bhutan spiritual retreat",
+      "Himalayan cultural escape"
+    ],
+    "region": "South Asia - Himalayas",
+    "hubCardColor": "orange"
+  },
+  "hero": {
+    "badge": "The Land of the Thunder Dragon",
+    "headline": "Bhutan Measures Wealth",
+    "headlineAccent": "By Happiness, Not GDP.",
+    "body": "Perched high in the Himalayas where mountains pierce the clouds, Bhutan has preserved its ancient culture and spiritual traditions while rejecting mass tourism. Tiger's Nest Monastery clings to cliff faces. Golden Buddhas tower over valleys. Local farmers still harvest by hand. This is the world's only carbon-negative country, where gross national happiness matters more than gross national product.",
+    "bgImage": "/images/gallery/2448.jpg",
+    "stats": [
+      {
+        "value": "35+",
+        "label": "Years Sending Malaysians to Bhutan"
+      },
+      {
+        "value": "1988",
+        "label": "Trusted Since"
+      },
+      {
+        "value": "MATTA",
+        "label": "& IATA Registered"
+      }
+    ]
+  },
+  "why": {
+    "sectionLabel": "Why Bhutan",
+    "heading": "A Journey to the World's Only Carbon-Negative Country",
+    "subheading": "Bhutan is not a destination you stumble upon. It requires intention, effort, and planning. But visitors who make the journey find something rare: a country where tradition, spirituality, and mountain beauty converge in ways that transform how you see the world.",
+    "highlights": [
+      {
+        "icon": "temple",
+        "title": "Tiger's Nest Monastery: The Icon of Bhutan",
+        "body": "Perched impossibly on a cliff face 3,120 metres above the Paro Valley, Taktsang Monastery is not just Bhutan's most iconic landmark—it is one of the most sacred sites in Himalayan Buddhism. The three-hour hike rewards you with views that will stay with you forever, and a spiritual atmosphere unlike anywhere else on earth.",
+        "image": "/images/gallery/2447.jpg",
+        "places": [
+          "Taktsang Monastery",
+          "Paro Valley",
+          "Guru Rinpoche Meditation Cave"
+        ]
+      },
+      {
+        "icon": "mountain",
+        "title": "Thimphu: The Capital Without Traffic Lights",
+        "body": "Bhutan's charming capital is unlike any other. No traffic lights. No neon signs. No chain stores. Instead, traditional architecture, spirituality, and genuine Bhutanese life. The Buddha Dordenma statue rises 52 metres over the city. The National Memorial Chorten is a place of pilgrimage and prayer. Wander through the local markets and feel the authentic heartbeat of the nation.",
+        "image": "/images/gallery/2453.jpg",
+        "places": [
+          "Buddha Dordenma",
+          "Tashichho Dzong",
+          "National Memorial Chorten"
+        ]
+      },
+      {
+        "icon": "wave",
+        "title": "Farmhouse Stays: Hands-On Cultural Immersion",
+        "body": "Sleep in traditional Bhutanese farmhouses with families who have lived the same way for generations. Try archery, Bhutan's national sport. Harvest vegetables from local gardens. Cook the iconic Ema Datshi with your hosts. These are not packaged experiences—they are genuine encounters that show you how Bhutan actually lives.",
+        "image": "/images/gallery/2452.jpg",
+        "places": [
+          "Traditional Farmhouses",
+          "Local Organic Markets",
+          "Archery Grounds"
+        ]
+      },
+      {
+        "icon": "food",
+        "title": "Spiritual Landscapes: Monastery Hikes and Ancient Dzongs",
+        "body": "From the oldest dzong in the country (Simtokha, built in 1627) to the dramatic Paro Rinpung Dzong overlooking the valley, Bhutan's fortresses blend administrative and monastic functions in ways that reveal how spirituality and government are inseparable. Each dzong offers insight into centuries of Himalayan Buddhist culture.",
+        "image": "/images/gallery/2446.jpg",
+        "places": [
+          "Simtokha Dzong",
+          "Paro Rinpung Dzong",
+          "Tashichho Dzong"
+        ]
+      }
+    ]
+  },
+  "zones": {
+    "sectionLabel": "Bhutan Destinations",
+    "heading": "Where to Go and Why",
+    "subheading": "Bhutan is small enough to visit multiple regions in a single trip. Each area has its own character, attractions, and spiritual significance.",
+    "areas": [
+      {
+        "name": "Paro Valley",
+        "tag": "Sacred Monasteries",
+        "tagColor": "orange",
+        "description": "Home to Tiger's Nest Monastery and the stunning Paro Rinpung Dzong. The valley where most visitors arrive and where Bhutan's most iconic sights are concentrated.",
+        "image": "/images/gallery/2447.jpg",
+        "vibe": "Iconic",
+        "href": "/tours/bhutan/paro-thimphu"
+      },
+      {
+        "name": "Wangditse Nature Trail",
+        "tag": "Hiking & Nature",
+        "tagColor": "green",
+        "description": "A scenic orchard and forest trek through apple orchards and traditional farmhouses adorned with prayer flags, culminating at Wangditse Monastery with breathtaking views.",
+        "image": "/images/gallery/2445.jpg",
+        "vibe": "Serene",
+        "href": "/tours/bhutan/nature-trails"
+      },
+      {
+        "name": "Kathmandu",
+        "tag": "Nepal Heritage",
+        "tagColor": "red",
+        "description": "The ancient capital of Nepal with centuries of Buddhist temples, sacred stupas, and Himalayan heritage. Combine with Bhutan for a complete Himalayan spiritual journey.",
+        "image": "/images/gallery/15045.jpg",
+        "vibe": "Sacred",
+        "href": "/tours/bhutan/kathmandu"
+      }
+    ]
+  },
+  "bestTime": {
+    "sectionLabel": "When to Visit",
+    "heading": "Best Time to Visit Bhutan from Malaysia",
+    "body": "Bhutan has distinct seasons, each offering different advantages. Choose based on whether you prefer mild weather, clear mountain views, or lush green landscapes.",
+    "seasons": [
+      {
+        "name": "Autumn Season",
+        "months": "September to November",
+        "badge": "Crystal Clear Skies",
+        "badgeColor": "orange",
+        "description": "The best season for clear visibility of the Himalayas. Cool mornings and warm days. Wildflowers still blooming. Tiger's Nest Monastery views are at their best. September sees fewer crowds before peak October-November.",
+        "icon": "sun"
+      },
+      {
+        "name": "Spring Season",
+        "months": "March to May",
+        "badge": "Rhododendrons in Bloom",
+        "badgeColor": "red",
+        "description": "Lush green valleys and wildflowers in bloom. Comfortable temperatures for hiking. The countryside is at its most vibrant. May can see afternoon clouds, but mornings are spectacular.",
+        "icon": "flower"
+      },
+      {
+        "name": "Summer Monsoon",
+        "months": "June to August",
+        "badge": "Green Landscapes",
+        "badgeColor": "green",
+        "description": "Wettest season but fewer tourists. Cloud-covered mountains. Great for budget travellers but not ideal for photography. The valleys and hillsides are incredibly green and lush.",
+        "icon": "rain"
+      },
+      {
+        "name": "Winter",
+        "months": "December to February",
+        "badge": "Crisp & Cold",
+        "badgeColor": "blue",
+        "description": "Clear skies for Himalayan views, but cold mornings and possible snow. Lower tourist numbers. High altitude areas may be inaccessible. Best for those who can handle cold weather.",
+        "icon": "snow"
+      }
+    ]
+  },
+  "tripLength": {
+    "sectionLabel": "Trip Duration",
+    "heading": "How Many Days Do You Actually Need?",
+    "options": [
+      {
+        "days": "5 Days",
+        "label": "Essence of Bhutan",
+        "description": "The minimum recommended for a first visit. Covers Paro, Thimphu, and the iconic Tiger's Nest Monastery hike. Enough to feel the spiritual atmosphere and see the most famous sites."
+      },
+      {
+        "days": "6-7 Days",
+        "label": "Sweet Spot",
+        "description": "Ideal for first-time visitors. Combines the main attractions with deeper experiences like farmhouse stays, cultural immersion, and optional nature hikes. Time to absorb the pace of Bhutanese life.",
+        "recommended": true
+      },
+      {
+        "days": "8+ Days",
+        "label": "Complete Experience",
+        "description": "Allows for combinations with Nepal. Gives you time to linger, hike, and truly experience the spiritual and cultural depth of the Himalayas. More relaxed, less rushed."
+      }
+    ]
+  },
+  "whyBook": {
+    "sectionLabel": "Why Dhesu",
+    "heading": "Why Book Your Bhutan Journey Through Dhesu",
+    "body": "Bhutan requires proper planning. Foreign visitors cannot book independently—all tourism must go through licensed tour operators. We have been arranging Bhutan journeys for Malaysian travellers for over 35 years. We know the guides who understand Buddhist philosophy, the families who welcome visitors into their farmhouses, and how to navigate Bhutan's unique travel requirements. Every detail matters in Bhutan, from guide quality to hotel selection to timing your hike to Tiger's Nest for the best light.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "MATTA & IATA Registered",
+        "description": "Fully licensed Bhutan tour operator. We handle all visa documentation, Bhutan government permits, and regulatory compliance so you don't have to worry."
+      },
+      {
+        "icon": "clock",
+        "title": "35+ Years of Bhutan Experience",
+        "description": "Since 1988, we have been sending Malaysian travellers to Bhutan. We have relationships with the best guides, hotels, and local families across the country."
+      },
+      {
+        "icon": "map",
+        "title": "Expert Local Guides",
+        "description": "English-speaking guides who understand Bhutanese Buddhism, history, and culture deeply. Not just tour leaders—genuine cultural interpreters."
+      },
+      {
+        "icon": "tag",
+        "title": "100% Private Tours",
+        "description": "All tours are privately guided. You set the pace. You choose the activities. You decide if you want to linger at a monastery or move on to the next site. Your journey, your way."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Plan Your Bhutan Journey",
+    "subheading": "Bhutan requires intention. Let us handle the logistics so you can focus on the experience.",
+    "phone": "+6019 336 4465",
+    "email": "tours@dhesu.travel",
+    "address": "Level 2 and 3, Wisma Dhesu, No. 5 Jalan Bangsar Utama 3, 59000 Kuala Lumpur.",
+    "bgImage": "/images/gallery/2445.jpg"
+  },
+  "packages": {
+    "sectionLabel": "Our Packages",
+    "heading": "Bhutan Packages for Every Traveller",
+    "subheading": "Every Dhesu Bhutan package is 100% privately guided with English-speaking guides, airport transfers, authentic farmhouse experiences, and cultural immersion included. International flights can be added on request.",
+    "ctaNote": "Custom packages and group bookings available. Speak with our Bhutan specialists.",
+    "items": [
+      {
+        "id": "bhutan-5d-calm-trails",
+        "slug": "paro-thimphu/5-day-calm-trails-grand-views",
+        "name": "5 Days Bhutan: Calm Trails & Grand Views",
+        "duration": "5D4N",
+        "price": "From RM3,788",
+        "originalPrice": "RM4,546",
+        "priceNote": "per person",
+        "saving": "Save RM1,515 per couple",
+        "tag": "Essence",
+        "tagColor": "orange",
+        "highlights": [
+          "Tiger's Nest Monastery Hike",
+          "Tashichho Dzong, Thimphu",
+          "Buddha Dordenma & Kuenselphodrang",
+          "Tamchog Lhakhang Iron Chain Bridge",
+          "Farmhouse Experience & Archery",
+          "Traditional Hot Stone Bath"
+        ],
+        "image": "/images/gallery/16220.jpg",
+        "pkgid": "2454",
+        "popular": false,
+        "description": "Discover the serene beauty and rich culture of Bhutan, the Land of the Thunder Dragon. Begin in Paro, landing amidst breathtaking Himalayan vistas, before a scenic drive to Thimphu. Visit the Buddha Dordenma, National Memorial Chorten, Motithang Takin Preserve, and the historic Tamchog Lhakhang with its famous iron chain bridge. Travel to Paro to enjoy hands-on farmhouse experiences—archery, vegetable harvesting, and cooking the iconic Ema Datshi with locals. The journey peaks with the legendary Tiger's Nest Monastery hike, followed by a restorative traditional hot stone bath."
+      },
+      {
+        "id": "bhutan-6d-kingdom-happiness",
+        "slug": "paro-thimphu/6-day-kingdom-of-happiness",
+        "name": "6 Days Bhutan: Kingdom of Happiness Experience",
+        "duration": "6D5N",
+        "price": "From RM4,488",
+        "originalPrice": "RM5,386",
+        "priceNote": "per person",
+        "saving": "Save RM1,795 per couple",
+        "tag": "Sweet Spot",
+        "tagColor": "green",
+        "highlights": [
+          "Extended Thimphu Immersion",
+          "Wangditse Nature Trail Hike",
+          "Multiple Sacred Temple Visits",
+          "Farmhouse Stays with Locals",
+          "Tiger's Nest Monastery Trek",
+          "Spiritual Ceremonies & Rituals"
+        ],
+        "image": "/images/gallery/16215.jpg",
+        "pkgid": "2453",
+        "popular": true,
+        "description": "Experience the enchanting Kingdom of Bhutan, where majestic mountains meet rich culture and timeless traditions. Begin in Paro, greeted with a traditional khaddar, before a scenic drive to Thimphu. An extended journey with more time in Thimphu, optional Wangditse Nature Trail hike through orchards and forests, and deeper cultural immersion. Authentic farmhouse experiences, interactions with local families, traditional Bhutanese meals, and ample time for spiritual reflection. Perfect for first-time visitors wanting to truly feel Bhutan's rhythm."
+      },
+      {
+        "id": "bhutan-7d-himalayan-escape",
+        "slug": "paro-thimphu/7-day-himalayan-cultural-escape",
+        "name": "7 Days Bhutan: A Himalayan Cultural Escape",
+        "duration": "7D6N",
+        "price": "From RM5,188",
+        "originalPrice": "RM6,226",
+        "priceNote": "per person",
+        "saving": "Save RM2,075 per couple",
+        "tag": "Cultural Deep Dive",
+        "tagColor": "blue",
+        "highlights": [
+          "Paro, Thimphu & Punakha Exploration",
+          "Multiple Monastery & Dzong Visits",
+          "Extended Farmhouse Experiences",
+          "Sacred Sites & Heritage Walks",
+          "Nature Hikes & Scenic Trails",
+          "Expert Guide & Private Transport"
+        ],
+        "image": "/images/gallery/2446.jpg",
+        "pkgid": "2446",
+        "popular": true,
+        "description": "Embark on a magical journey through the Kingdom of Bhutan, from the serene valleys of Paro to the cultural heart of Thimphu and the scenic beauty of Punakha. A warm Bhutanese welcome sets the tone for an extended experience with multiple monastery visits, deeper cultural immersion in farmhouse settings, optional extended hikes, and time for spiritual reflection. Visit ancient dzongs, participate in local markets, and connect with Bhutanese culture on a profound level. Recommended for first-time visitors who want deeper immersion."
+      },
+      {
+        "id": "bhutan-8d-nepal-combo",
+        "slug": "paro-thimphu/8-day-bhutan-nepal-himalayan",
+        "name": "8 Days Bhutan & Nepal + The Most Amazing Himalayas",
+        "duration": "8D7N",
+        "price": "From RM9,888",
+        "originalPrice": "RM11,866",
+        "priceNote": "per person",
+        "saving": "Save RM3,955 per couple",
+        "tag": "Ultimate Combo",
+        "tagColor": "purple",
+        "highlights": [
+          "Bhutan's Complete Cultural Experience",
+          "Tiger's Nest Monastery Trek",
+          "Bhutanese Farmhouse Stays",
+          "Kathmandu Heritage City Tour",
+          "Sacred Nepalese Temples",
+          "Dual-Country Himalayan Immersion"
+        ],
+        "image": "/images/gallery/245.jpg",
+        "pkgid": "245",
+        "popular": false,
+        "description": "Bhutan, called the last Shangri-La and said to be the world's happiest place, is a privilege only a few experience. Combine the awe-inspiring mountainous landscapes and spiritual serenity of Bhutan with the ancient heritage and sacred temples of Nepal's Kathmandu. Trek Tiger's Nest Monastery. Stay in Bhutanese farmhouses. Explore the UNESCO World Heritage sites of Kathmandu Valley. A comprehensive Himalayan adventure blending two of Asia's richest spiritual cultures in one unforgettable journey."
+      }
+    ]
+  }
+}

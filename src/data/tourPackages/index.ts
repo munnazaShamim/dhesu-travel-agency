@@ -73,6 +73,11 @@ import nepalChitwan8DayNationalParkSafari from "./nepal/chitwan--8-day-national-
 import nepalMuktinath8DaySpiritual from "./nepal/muktinath--8-day-spiritual.json";
 import nepalLumbini8DayBirthplaceOfBuddha from "./nepal/lumbini--8-day-birthplace-of-buddha.json";
 
+import bhutanParoThimphu5DayCalmTrails from "./bhutan/paro-thimphu--5-day-calm-trails-grand-views.json";
+import bhutanParoThimphu6DayKingdomHappiness from "./bhutan/paro-thimphu--6-day-kingdom-of-happiness.json";
+import bhutanParoThimphu7DayHimalayanEscape from "./bhutan/paro-thimphu--7-day-himalayan-cultural-escape.json";
+import bhutanParoThimphu8DayNepalHimalayan from "./bhutan/paro-thimphu--8-day-bhutan-nepal-himalayan.json";
+
 import sriLankaKandy3DayKandyColombo from "./sri-lanka/kandy--3-day-kandy-colombo.json";
 import sriLankaNuwaraEliya4DayLittleEngland from "./sri-lanka/nuwara-eliya--4-day-little-england.json";
 import sriLankaNuwaraEliya4DayMuslimFriendly from "./sri-lanka/nuwara-eliya--4-day-muslim-friendly.json";
@@ -86,7 +91,31 @@ import sriLankaKandy8DayDiscoverMagic from "./sri-lanka/kandy--8-day-discover-ma
 import sriLankaJaffna9DayNorthernDiscovery from "./sri-lanka/jaffna--9-day-northern-discovery.json";
 import sriLankaJaffna12DayCompleteIsland from "./sri-lanka/jaffna--12-day-complete-island.json";
 
+import vietnamNorthHalong3DaySuperSaver from "./vietnam/north-vietnam--3-day-hanoi-halong-bay-super-saver.json";
+import vietnamNorthHalong4DayLuxury from "./vietnam/north-vietnam--4-day-hanoi-halong-luxury.json";
+import vietnamNorthSapa5Day from "./vietnam/north-vietnam--5-day-hanoi-sapa-fansipan.json";
+import vietnamNorthHalongNinhBinh5Day from "./vietnam/north-vietnam--5-day-hanoi-halong-ninh-binh.json";
+import vietnamNorthBestOf5Day from "./vietnam/north-vietnam--5-day-north-vietnam.json";
+import vietnamNorthHalongSapa6Day from "./vietnam/north-vietnam--6-day-hanoi-halong-sapa.json";
+import vietnamNorthBestOf6Day from "./vietnam/north-vietnam--6-day-north-vietnam-best.json";
+import vietnamCentralDanang3DaySuperSaver from "./vietnam/central-vietnam--3-day-danang-super-saver.json";
+import vietnamCentralDanangBana4Day from "./vietnam/central-vietnam--4-day-danang-hoi-an-bana.json";
+import vietnamCentralDanangHueHoiAn5Day from "./vietnam/central-vietnam--5-day-danang-hue-hoi-an.json";
+import vietnamCentralDanangTrain5Day from "./vietnam/central-vietnam--5-day-danang-train-hoi-an.json";
+import vietnamSouthSaigonMekong4Day from "./vietnam/south-vietnam--4-day-saigon-mekong.json";
+import vietnamSouthSaigonMuiNe4Day from "./vietnam/south-vietnam--4-day-saigon-mui-ne.json";
+import vietnamSouthDalat4Day from "./vietnam/south-vietnam--4-day-dalat.json";
+import vietnamSouthSaigonCuChiMuiNe5Day from "./vietnam/south-vietnam--5-day-saigon-cu-chi-mui-ne.json";
+import vietnamSouthDalatBest5Day from "./vietnam/south-vietnam--5-day-south-vietnam-dalat.json";
+import vietnamPhuQuoc3DaySuperSaver from "./vietnam/phu-quoc--3-day-phu-quoc-super-saver.json";
+import vietnamPhuQuoc4DayCableCar from "./vietnam/phu-quoc--4-day-phu-quoc-cable-car.json";
+import vietnamPhuQuoc5DayBest from "./vietnam/phu-quoc--5-day-phu-quoc-best.json";
+
 const packageDetails: Record<string, PackageDetailData> = {
+  "paro-thimphu/5-day-calm-trails-grand-views": bhutanParoThimphu5DayCalmTrails as PackageDetailData,
+  "paro-thimphu/6-day-kingdom-of-happiness": bhutanParoThimphu6DayKingdomHappiness as PackageDetailData,
+  "paro-thimphu/7-day-himalayan-cultural-escape": bhutanParoThimphu7DayHimalayanEscape as PackageDetailData,
+  "paro-thimphu/8-day-bhutan-nepal-himalayan": bhutanParoThimphu8DayNepalHimalayan as PackageDetailData,
   "east-india/3-day-kolkata-heritage": eastIndia3DayKolkataHeritage as PackageDetailData,
   "kashmir/12-day-srinagar-leh-road-trip": kashmir12DaySrinagarLehRoadTrip as PackageDetailData,
   "kashmir/4-day-super-saver": kashmir4DaySuperSaver as PackageDetailData,
@@ -170,6 +199,25 @@ const packageDetails: Record<string, PackageDetailData> = {
   "kandy/8-day-discover-magic": sriLankaKandy8DayDiscoverMagic as PackageDetailData,
   "jaffna/9-day-northern-discovery": sriLankaJaffna9DayNorthernDiscovery as PackageDetailData,
   "jaffna/12-day-complete-island": sriLankaJaffna12DayCompleteIsland as PackageDetailData,
+  "north-vietnam/3-day-hanoi-halong-bay-super-saver": vietnamNorthHalong3DaySuperSaver as PackageDetailData,
+  "north-vietnam/4-day-hanoi-halong-luxury": vietnamNorthHalong4DayLuxury as PackageDetailData,
+  "north-vietnam/5-day-hanoi-sapa-fansipan": vietnamNorthSapa5Day as PackageDetailData,
+  "north-vietnam/5-day-hanoi-halong-ninh-binh": vietnamNorthHalongNinhBinh5Day as PackageDetailData,
+  "north-vietnam/5-day-north-vietnam": vietnamNorthBestOf5Day as PackageDetailData,
+  "north-vietnam/6-day-hanoi-halong-sapa": vietnamNorthHalongSapa6Day as PackageDetailData,
+  "north-vietnam/6-day-north-vietnam-best": vietnamNorthBestOf6Day as PackageDetailData,
+  "central-vietnam/3-day-danang-super-saver": vietnamCentralDanang3DaySuperSaver as PackageDetailData,
+  "central-vietnam/4-day-danang-hoi-an-bana": vietnamCentralDanangBana4Day as PackageDetailData,
+  "central-vietnam/5-day-danang-hue-hoi-an": vietnamCentralDanangHueHoiAn5Day as PackageDetailData,
+  "central-vietnam/5-day-danang-train-hoi-an": vietnamCentralDanangTrain5Day as PackageDetailData,
+  "south-vietnam/4-day-saigon-mekong": vietnamSouthSaigonMekong4Day as PackageDetailData,
+  "south-vietnam/4-day-saigon-mui-ne": vietnamSouthSaigonMuiNe4Day as PackageDetailData,
+  "south-vietnam/4-day-dalat": vietnamSouthDalat4Day as PackageDetailData,
+  "south-vietnam/5-day-saigon-cu-chi-mui-ne": vietnamSouthSaigonCuChiMuiNe5Day as PackageDetailData,
+  "south-vietnam/5-day-south-vietnam-dalat": vietnamSouthDalatBest5Day as PackageDetailData,
+  "phu-quoc/3-day-phu-quoc-super-saver": vietnamPhuQuoc3DaySuperSaver as PackageDetailData,
+  "phu-quoc/4-day-phu-quoc-cable-car": vietnamPhuQuoc4DayCableCar as PackageDetailData,
+  "phu-quoc/5-day-phu-quoc-best": vietnamPhuQuoc5DayBest as PackageDetailData,
 };
 
 export const packageSlugs = Object.keys(packageDetails);

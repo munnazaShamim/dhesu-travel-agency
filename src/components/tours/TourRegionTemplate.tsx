@@ -26,6 +26,10 @@ export interface TourRegionTemplateProps {
   heroImage: string;
   packages: TourPackage[];
   cta: TourPageData["cta"];
+  /** URL slug of the parent destination, e.g. "india", "bhutan". Defaults to "india". */
+  destination?: string;
+  /** Display name of the parent destination, e.g. "India", "Bhutan". Defaults to "India". */
+  destinationLabel?: string;
 }
 
 // ─── Region / Theme Listing Template ────────────────────────────────────────────
@@ -36,6 +40,8 @@ export default function TourRegionTemplate({
   heroImage,
   packages,
   cta,
+  destination = "india",
+  destinationLabel = "India",
 }: TourRegionTemplateProps) {
   return (
     <main className="bg-white overflow-x-hidden">
@@ -69,7 +75,7 @@ export default function TourRegionTemplate({
           >
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <span>/</span>
-            <Link href="/tours/india" className="hover:text-white transition-colors">India</Link>
+            <Link href={`/tours/${destination}`} className="hover:text-white transition-colors">{destinationLabel}</Link>
             <span>/</span>
             <span className="text-white">{label}</span>
           </motion.nav>
@@ -96,7 +102,7 @@ export default function TourRegionTemplate({
             variants={fadeUp}
             className="max-w-3xl mb-14"
           >
-            <SectionLabel text="India Packages" />
+            <SectionLabel text={`${destinationLabel} Packages`} />
             <p className="text-gray-600 text-lg leading-relaxed">{intro}</p>
           </motion.div>
 
@@ -115,7 +121,7 @@ export default function TourRegionTemplate({
           {packages.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-7">
               {packages.map((pkg, i) => (
-                <PackageCard key={pkg.id} pkg={pkg} index={i} slug="india" />
+                <PackageCard key={pkg.id} pkg={pkg} index={i} slug={destination} />
               ))}
             </div>
           ) : (
@@ -124,9 +130,9 @@ export default function TourRegionTemplate({
 
           {/* Back to all India packages */}
           <div className="text-center mt-12">
-            <Link href="/tours/india/all-packages">
+            <Link href={`/tours/${destination}/all-packages`}>
               <Button variant="light" showArrow size="lg">
-                View All India Packages
+                View All {destinationLabel} Packages
               </Button>
             </Link>
           </div>
